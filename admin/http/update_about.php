@@ -1,0 +1,10 @@
+<?php
+require_once '../../class/db.php';
+
+$id = $_POST['id'];
+$title = $_POST['title'];
+$details = $_POST['details'];
+
+
+$db = new DB();
+$db->action("UPDATE `about` SET `title` = '{$title}', `text` = '{$details}' WHERE id = '$id'");

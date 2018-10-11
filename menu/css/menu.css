@@ -1,0 +1,72 @@
+#top_menu{position: fixed; left: 0px; top: 0px; width: 100%; height: 180px; z-index: 1000; text-align:center; background: linear-gradient(to bottom, rgba(51, 51, 51, 4), rgba(0, 0, 0, 0)); transition: all 0.8s;}
+#top_menu .top_menu_link{position: absolute; left: 0px; top: 80px; width: 120px; height: 40px; transition: all 0.3s; z-index: 100;}
+
+/* single link stylesheet */
+
+#top_menu #top_home{left:calc(50% - 410px);}
+#top_menu #top_products{left:calc(50% - 270px); transition-delay: 0.05s;}
+#top_menu #top_catalog{left:calc(50% - 130px);  transition-delay: 0.1s;}
+#top_menu #top_news{left: calc(50% + 10px);  transition-delay: 0.15s;}
+#top_menu #top_about{left: calc(50% + 150px);  transition-delay: 0.2s;}
+#top_menu #top_contact{left: calc(50% + 290px);  transition-delay: 0.25s;}
+
+#top_menu #top_all_products{top: 120px; background: rgba(0,0,0,0.4); left:calc(50% - 270px); width: 260px; display: none; position: absolute;}
+#top_menu #top_uber_uns{top: 120px; background: rgba(0,0,0,0.4); left:calc(50% + 150px); width: 260px; display: none; position: absolute;}
+#top_menu #top_all_products .product_link, #top_menu #top_uber_uns .product_link{position: relative; text-align: left; left: 0px; top: 0px; width: 100%; height: 35px;}
+#top_menu #top_all_products .product_link a, #top_menu #top_uber_uns .product_link a{margin-left: 30px; color: #fff; font-size: 14px; top: 5px; position: absolute;}
+#top_menu .top_menu_link a{margin-top:10px; display:block; text-decoration: none; color:#fff;}
+
+/* menu icon */
+
+#top_menu #menu_icon{position: absolute; left: 20px; width: 26px;  top: 19px; height: 26px; z-index: 200;}
+#top_menu #menu_icon:hover{cursor: pointer;}
+#top_menu #menu_icon .menu_icon_line{position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; border:1px solid #fff; border-radius: 3px; transition: all 0.3s; opacity: 0;}
+
+#top_menu #menu_icon #menu_icon_top_left{transition-delay: 0.1s;}
+#top_menu #menu_icon #menu_icon_top_right{left: calc(50% + 4px); transition-delay: 0.3s;}
+#top_menu #menu_icon #menu_icon_bottom_left{top: calc(50% + 4px); width: 14px; height: 14px; left: -2px;}
+#top_menu #menu_icon #menu_icon_bottom_rigth{top: calc(50% + 4px); left: calc(50% + 4px); transition-delay: 0.2s;}
+
+
+#top_menu #contact_us_part{position: absolute; right: 0px; top: 0px; width: 200px; height: 100%; /* background: #f15b2a; */transition: all 0.5s; transition-delay: 0.5s; opacity: 0;}
+#top_menu #contact_us_part a{position: absolute; left: 0px; top: 22px; width: 100%;  text-align: center; color:#fff;}
+
+
+/**** LEFT MENU ****/
+#left_menu_shadow{position: fixed; left: 100%; top: 0px; width: calc(100% - 340px); transition: all 0.2s; height: 100%; background: rgba(0,0,0,0.7); z-index: 1200;}
+#left_menu_shadow h4{color: #fff; font-size: 80px; margin:0px; position: absolute; left: 80px; top: 100px; opacity: 0.4;}
+
+#left_menu{position: fixed; left: -340px; top: 0px; width: 340px; transition: all 0.2s; height: 100%; background: #3A3A3A; z-index: 1200;}
+
+#left_menu #left_menu_header{position: absolute; left: 0px; top: 0px; width: 100%; height: 120px;}
+#left_menu #left_menu_header h4{margin-left: 30px; color:#fff; font-size: 22px;}
+#left_menu #left_menu_header i{position: absolute; right: 30px; font-size: 30px; color:#fff; top: 32px;}
+#left_menu #left_menu_header i:hover{cursor: pointer;}
+
+#left_menu #left_menu_body{position: absolute; left: 0px; top: 120px; width: 100%; height: calc(100% - 120px); overflow: auto;}
+#left_menu .left_menu_links{position: relative; left: 00px; top: 0px; width: calc(100% - 0px); height: 50px;}
+#left_menu .left_menu_links:hover{background: rgba(0,0,0,0.1) !important; cursor: pointer;}
+#left_menu .left_menu_links img{position: absolute; left: 30px; top: 14px; width: 20px; height: 20px;}
+#left_menu .left_menu_links a{position: absolute; left: 70px; color: #fff; font-size: 14px; top: 14px; }
+#left_menu .left_menu_links p{position: absolute; left: 70px; color: #fff; font-size: 14px; top: 14px; }
+
+#left_menu .left_menu_submenu{position: relative; left: 0px; top: 0px; width: calc(100% - 0px); height: 0; transition: height 0.3s; overflow: hidden;  background: rgba(0,0,0,0.1); }
+#left_menu .left_menu_submenu .left_menu_submenu_link{position: relative; left: 0px; top: 0px; width: 100%; height: 40px;}
+#left_menu .left_menu_submenu .left_menu_submenu_link a{color: #fff; position: absolute; left: 70px; font-size: 12px; top: 10px;}
+#left_menu .left_menu_submenu .left_menu_submenu_link .left_menu_submenu_circle{position: absolute; left: 20px; top: 0px; width: 40px; height: 40px;}
+
+#left_menu .left_menu_submenu .left_menu_submenu_link .left_menu_submenu_circle .top_line{position: absolute; width: 2px; height: calc(50% - 6px); background: rgba(255,255,255,0.1); left: calc(50% - 1px);}
+#left_menu .left_menu_submenu .left_menu_submenu_link .left_menu_submenu_circle .middle_circle{position: absolute; width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); left: calc(50% - 4px); top: calc(50% - 4px);}
+#left_menu .left_menu_submenu .left_menu_submenu_link .left_menu_submenu_circle .bottom_line{position: absolute; width: 2px; height: calc(50% - 6px); background: rgba(255,255,255,0.1); bottom: 0px; left: calc(50% - 1px);}
+
+
+
+
+
+
+
+
+
+
+
+

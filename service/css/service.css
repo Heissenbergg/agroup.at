@@ -1,0 +1,96 @@
+#cat_menu{position: fixed; top: 100px; left: 13%; width: 320px; height: calc(100% - 130px); border-right: 1px solid rgba(0,0,0,0.1);}
+
+#cat_menu #total_articles{position: absolute; left: 0px; top: 0px; width: 100%; height: 40px;}
+#cat_menu #total_articles p{margin-left: 20px; font-size: 14px; color: grey;}
+
+#cat_menu #cat_menu_header{position: absolute; left: 0px; top: 20px; width: 100%; height: 60px;}
+#cat_menu #cat_menu_header p{margin-left: 20px; font-weight: bold;}
+
+#cat_menu #cat_menu_all_links{position: absolute; left: 0px; top: 70px; width: 100%; height: calc(100% - 160px); overflow: auto;}
+#cat_menu #cat_menu_all_links .cat_menu_link{position: relative; left: 0px; top: 0px;  width: 100%; height: auto; min-height: 30px; padding-top: 3px;}
+#cat_menu #cat_menu_all_links .cat_menu_link p{position: relative; left: 50px; margin-right: 20px; color: grey;  height: auto; margin-top: 3px; margin-bottom: 0px; font-size: 14px; width: calc(100% - 60px);}
+#cat_menu #cat_menu_all_links .cat_menu_link p:hover{cursor: pointer; color: #333;}
+#cat_menu #cat_menu_all_links .cat_menu_link .left_menu_submenu_circle{position: absolute; left: 20px; top: 0px; width: 30px; height: 100%;}
+
+#cat_menu #cat_menu_all_links .cat_menu_link .left_menu_submenu_circle .top_line{position: absolute; width: 2px; height: calc(50% - 6px); background: rgba(0,0,0,0.1); left: calc(50% - 1px);}
+#cat_menu #cat_menu_all_links .cat_menu_link .left_menu_submenu_circle .middle_circle{position: absolute; width: 6px; height: 6px; border-radius: 50%; background: rgba(0,0,0,0.5); left: calc(50% - 3px); top: calc(50% - 3px);}
+#cat_menu #cat_menu_all_links .cat_menu_link .left_menu_submenu_circle .bottom_line{position: absolute; width: 2px; height: calc(50% - 6px); background: rgba(0,0,0,0.1); bottom: 0px; left: calc(50% - 1px);}
+
+
+#cat_menu #cat_menu_all_links .cat_menu_services{position: relative; overflow: hidden; height: 0px; left: 0px; top: 0px; width: 100%; transition: 0.2s all;}
+#cat_menu #cat_menu_all_links .cat_menu_services .cat_menu_service_single{position: relative; left: 0px; top: 0px; width: 100%; min-height: 30px; height: auto; padding-top: 3px;}
+#cat_menu #cat_menu_all_links .cat_menu_services .cat_menu_service_single p{position: relative; left: 50px; font-size: 14px; margin: 0px; margin-top: 3px; width: calc(100% - 60px);}
+#cat_menu #cat_menu_all_links .cat_menu_services .cat_menu_service_single p:hover{color: #333; font-weight: bold; cursor: pointer;}
+#cat_menu #cat_menu_all_links .cat_menu_services .cat_menu_service_single .cat_menu_service_single_line{position: absolute; left: 34px; top: 0px; width: 2px; height: 100%; background: rgba(0,0,0,0.1);}
+/*#cat_menu #cat_menu_all_links .cat_menu_services .cat_menu_service_single .cat_menu_service_single_text{position: absolute; left: 30px; top: 0px; width: calc(100% - 30px); height: 100%; }
+#cat_menu #cat_menu_all_links .cat_menu_services .cat_menu_service_single .cat_menu_service_single_text p{position: absolute; margin: 0px; font-size: 13px; left: 30px; top: 5px; color: grey;}
+#cat_menu #cat_menu_all_links .cat_menu_services .cat_menu_service_single .cat_menu_service_single_text:hover p{cursor: pointer; color: #333; font-weight: bolder;} */
+
+#cats_icon_mobile{position: fixed; right: 15px; top: 15px; width: 40px; height: 40px; z-index: 1000; display: none;}
+#cats_icon_mobile:hover{cursor: pointer;}
+#cats_icon_mobile img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; width: 30px; height: 30px; margin: auto;}
+#cat_menu #total_articles #exit_menu{position: absolute; right: 15px; top: 18px; width: 30px; height: 30px;}
+#cat_menu #total_articles #exit_menu:hover{cursor: pointer;}
+#cat_menu #total_articles #exit_menu img{position: absolute; left: 0px; top: 0px; width: 15px;}
+
+
+#body{position: fixed; top: 100px; left: calc(13% + 350px); width: calc(77% - 370px); height: calc(100% - 220px); overflow: auto;}
+#body #body_header{position: absolute; left: 0px; top: 0px; width: 100%; height: 100px;}
+#body #body_header h1{margin: 0px; font-weight: lighter; }
+
+#body #body_body{position: absolute; left: 0px; top: 100px; width: 100%; height: calc(100% - 100px); overflow: auto;}
+#body #body_body .images{position: relative; left: 0px: top:0px; width: 100%; height: 440px; }
+#body #body_body .images .image_part{position: absolute; left: 0px; top: 0px; width: 100%; height: calc(100% - 60px);}
+#body #body_body .images .image_part img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; max-width: 100%; max-height: 100%; margin: auto;}
+
+#body #body_body .images .image_part .rotated_image0{-webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg);}
+#body #body_body .images .image_part .rotated_image90{-webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+#body #body_body .images .image_part .rotated_image180{-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
+#body #body_body .images .image_part .rotated_image270{-webkit-transform: rotate(270deg); -moz-transform: rotate(270deg); -o-transform: rotate(270deg); -ms-transform: rotate(270deg); transform: rotate(270deg);}
+
+
+
+#body #body_body .images .image_part .service_images{display: none;}
+#body #body_body .images .image_part .first_image{display: block;}
+#body #body_body .images #image_arrows{position: absolute; left: 0px; bottom: 0px; width: 100%; height: 50px; text-align: center;}
+#body #body_body .images #image_arrows .image_arrows_part{position: relative; left: 0px; top: 0px; display: inline-block; height: 40px; width: 40px;}
+#body #body_body .images #image_arrows .image_arrows_part2{width: 160px;}
+#body #body_body .images #image_arrows .image_arrows_part img{max-width: 20px; max-height: 20px; position: absolute; left: 10px; top: 10px; right: 10px; bottom: 10px; margin: auto;}
+#body #body_body .images #image_arrows .image_arrows_part img:hover{cursor: pointer;}
+#body #body_body .images #image_arrows .image_arrows_part p{margin: 0px; position: absolute; top: 8px; width: 100%; text-align: center;}
+
+#body #body_body::-webkit-scrollbar{width: 4px;}
+#body #body_body::-webkit-scrollbar-track{background: #fff;}
+#body #body_body::-webkit-scrollbar-thumb{background: #BEBEBE;}
+#body #body_body p{margin: 0px; text-align: justify; font-size: 14px; margin-right: 10px; margin-top: 40px;}
+
+#all_news_footer{left: 13%; width: 77%;}
+
+@media screen and (max-width: 1400px){
+	#cat_menu{left: 5%;}
+	#body{left: calc(5% + 350px); width: calc(93% - 370px);}
+	#all_news_footer{left: 5%; position: fixed; width: 90%;}
+}
+
+@media screen and (max-width: 1000px){
+	#cats_icon_mobile{display: block;}
+	#cat_menu{left: 100%; top: 70px; height: calc(100% - 70px); background: #fff; z-index: 200; border-left: 2px solid rgba(0,0,0,0.05);}
+	#body{left: 5%; width: 90%;}
+}
+
+
+@media screen and (max-width: 900px){
+	#all_news_footer #all_socials{display: none;}
+}
+
+@media screen and (max-width: 800px){
+	#all_news_footer {display: none;}
+	#body{position: relative;}
+	#body #body_header{position: relative; top: 0px; height: auto;}
+	#body #body_body{position: relative;  overflow: none; top: 0px; margin-top: 20px;}
+}
+
+@media screen and (max-width: 600px){
+	#body{left: 15px; width: calc(100% - 30px);}
+	#body #body_header h1{font-size: 22px;}
+}

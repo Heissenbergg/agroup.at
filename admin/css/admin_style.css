@@ -1,0 +1,88 @@
+#working_area_header{position: fixed; left: 321px; top: 0px; height: 70px; width: calc(100% - 621px);}
+#working_area_header h4{color: #fff; margin-left: 30px;}
+
+/** working area - body **/
+#working_area{position: fixed; left: 320px; top: 70px; width: calc(100% - 320px); overflow: auto; height: calc(100% - 70px);}
+#working_area .form_output{position: relative; left: 30px; top: 30px; width: calc(100% - 60px); height: 40px; border: 1px solid rgba(0,0,0,0.1);}
+
+#working_area .form_output .form_output_left{position: absolute; left: 0px; top: 0px; width: calc(100% - 300px); height: 100%; }
+#working_area .form_output .form_output_left p{margin: 0px; margin-left: 15px; margin-top: 8px;}
+#working_area .form_output .form_output_delete{position: absolute; right: 0px; top: 0px; width: 40px; height: 40px; border-left: 1px solid rgba(0,0,0,0.1);}
+#working_area .form_output .form_output_delete_single{right: 40px;}
+#working_area .form_output .form_output_delete i{font-size: 16px; position: absolute; left: 12px; top: 10px;}
+#working_area .form_output .form_output_delete:hover{cursor: pointer;}
+#working_area .form_output .form_output_delete:hover i{color: #FF0144;}
+
+#working_area .form_output .form_output_preview{position: absolute; right: 40px; top: 0px; width: 220px; height: 40px; border-left: 1px solid rgba(0,0,0,0.1);}
+#working_area .form_output .form_output_preview_single{right: 80px;}
+#working_area .form_output .form_output_preview:hover{cursor: pointer;}
+#working_area .form_output .form_output_preview p{margin: 0px; margin-left: 15px; margin-top: 10px; font-size: 14px;}
+#working_area .form_output .form_output_preview:hover p{color: #FF0144;}
+
+#working_area .form_output_add_{margin-top: 20px;}
+#working_area .form_output_add_new{background: #00FFD3; width: 260px; left: calc(100% - 290px);}
+#working_area .form_output .form_output_add{position: absolute; right: 0px; top: 0px; width: 260px; height: 40px; border-left: 1px solid rgba(0,0,0,0.1);}
+#working_area .form_output .form_output_add:hover{cursor: pointer;}
+#working_area .form_output .form_output_add p{margin: 0px; margin-left: 15px; margin-top: 10px; font-size: 14px;}
+#working_area .form_output .form_output_add:hover p{color: #FF0144;}
+#working_area .form_output .form_output_left input,
+#working_area .form_output .form_output_add input{position: absolute; left: 0px; top: 0px; width:calc(100% - 30px); height: 100%; background: none; border: none; outline: none; padding-left: 15px;}
+#working_area .form_output .form_output_add input{text-align: left; padding-top: 2px;}
+#working_area .form_output .form_output_add input:hover{cursor: pointer;}
+#working_area .form_output_add_ a{position: absolute; left: 15px; top: 8px; color: #fff;}
+
+
+
+/*** insert products - images ***/
+
+#working_area #images_part{position: relative; left: 30px; top: 0px; margin-top: 20px; padding: 0px; width: calc(100% - 60px); text-align: justify; border: 2px solid rgba(0,0,0,0.05);}
+#working_area #images_part .single_image{position: relative; left: 0px; top: 0px; width: 220px; height: 160px; border: 1px solid rgba(0,0,0,0.1); display: inline-block; overflow: hidden;}
+#working_area #images_part .single_image img{position: absolute; left: -30px; top: -30px; right: -30px; bottom: -30px; max-width: calc(100% + 60px); margin: auto; }
+#working_area #images_part .single_image .delete_image_wrapper{position: absolute; right: 0px; top: 0px; width: 22px; height: 22px; background: #fff; border-bottom-left-radius: 3px;}
+#working_area #images_part .single_image .delete_image_wrapper:hover{cursor: pointer;}
+#working_area #images_part .single_image .delete_image_wrapper i{position: absolute; left: 4px; top: 2px;}
+#working_area #images_part .single_image .rotate_image{position: absolute; text-align: center; width: 80px; height: 80px; transition: 0.3s all; opacity: 0; background: rgba(0,0,0,0.2); left: calc(50% - 40px); top: calc(50% - 40px);}
+#working_area #images_part .single_image .rotate_image:hover{opacity: 1; cursor: pointer;}
+#working_area #images_part .single_image .rotate_image i{font-size: 30px; color: #fff; font-weight: lighter; margin-top: 25px;}
+
+#working_area #images_part .single_image .rotated_image0{-webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg);}
+#working_area #images_part .single_image .rotated_image90{-webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+#working_area #images_part .single_image .rotated_image180{-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
+#working_area #images_part .single_image .rotated_image270{-webkit-transform: rotate(270deg); -moz-transform: rotate(270deg); -o-transform: rotate(270deg); -ms-transform: rotate(270deg); transform: rotate(270deg);}
+
+
+/** insert image button and save article **/
+#working_area .insert_image_submit{position: relative; left: 30px; top: 0px; width: calc(100% - 60px); height: 40px; margin-top: 40px; text-align: right;}
+#working_area .insert_image_submit .insert_submit_button{position: relative; left: 0px; top: 0px; width: 200px; height: 40px; display: inline-block; text-align: center; background:#00FFD3;}
+#working_area .insert_image_submit .insert_submit_button:hover{cursor: pointer;}
+#working_area .insert_image_submit .insert_submit_button2{background: #0097FF;}
+#working_area .insert_image_submit .insert_submit_button p{margin-top: 9px; color: #fff;}
+#working_area .insert_image_submit .insert_submit_button p:hover{cursor: pointer;}
+
+
+/** huge label for inserting text **/
+#working_area .input_form{position: relative; left: 30px; top: 0px; width: calc(100% - 60px); height: 40px; border: 2px solid rgba(0,0,0,0.05);}
+#working_area .input_form .input_form_name{position: absolute; left: 0px; top: 0px; width: 300px; height: 100%; border-right: 2px solid rgba(0,0,0,0.05);}
+#working_area .input_form .input_form_name p{margin-left: 15px; margin-top: 8px;}
+#working_area .input_form .input_form_input{position: absolute; left: 300px; top: 0px; width: calc(100% - 300px); height: 100%;}
+#working_area .input_form .input_form_input input{position: absolute; left: 0px; padding-left: 15px; width: calc(100% - 30px); height: calc(100% - 20px); top: 10px; background: none; outline: none; border: none; resize: none;}
+#working_area .input_form .input_form_input img{position: absolute; left: 20px; height: 20px; top: 8px;}
+#working_area .input_form .input_form_input .preview_pdfs{position: absolute; right: 15px; font-size: 14px; margin-top: 9px;}
+#working_area .input_form .input_form_input .preview_pdfs .preview_pdfs_links{display: none;}
+
+
+#working_area .input_form .input_form_input img:hover{cursor: pointer;}
+#working_area #uploaded_pdf{display: none;}
+#working_area .input_form .input_form_input p{margin-left: 60px; margin-top: 8px; font-size: 14px;}
+
+#working_area .textarea_form{position: relative; left: 30px; top: 0px; width: calc(100% - 60px); height: 220px; border: 2px solid rgba(0,0,0,0.05); border-top: none;}
+#working_area .textarea_form .textarea_form_name{position: absolute; left: 0px; top: 0px; width: 300px; height: 100%; border-right: 2px solid rgba(0,0,0,0.05);}
+#working_area .textarea_form .textarea_form_name p{margin-left: 15px;}
+#working_area .textarea_form .textarea_form_input{position: absolute; left: 300px; top: 0px; width: calc(100% - 300px); height: 100%;}
+#working_area .textarea_form .textarea_form_input textarea{position: absolute; left: 0px; padding-left: 15px; width: calc(100% - 30px); height: calc(100% - 20px); top: 10px; background: none; outline: none; border: none; resize: none;}
+
+
+/** loading bar **/
+#working_area #loading_bar_admin{position:absolute; display:none; left:0px; top:0px; width:100%; height:100%; background:#fff; z-index:1000;}
+#working_area #loading_bar_admin #loading_part_admin{position:absolute; left:calc(50% - 100px); top:calc(50% - 150px); width:200px; height:200px;}
+#working_area #loading_bar_admin #loading_part_admin #logo_image_admin{position:absolute; height:100px; left:0px; top:0px; right:0px; bottom:0px; margin:auto;}

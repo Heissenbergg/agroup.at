@@ -1,0 +1,10 @@
+#mails_wrapper{position:fixed; left:0px; top:0px; width:100%; height:100%; background:rgba(0,0,0,0.3); z-index:2000; display:none;}
+#mails_wrapper #mails_wrapper_message{position:absolute; width:300px; height:140px; background:#fff; left:calc(50% - 150px); top:calc(50% - 70px);}
+
+#mails_wrapper #mails_wrapper_message #mails_message_head{position:absolute; left:0px; top:0px; width:100%; height:30px; border-bottom:2px solid rgba(0,0,0,0.05);}
+#mails_wrapper #mails_wrapper_message #mails_message_head p{font-size:14px; margin-left:15px; margin-top:6px;}
+#mails_wrapper #mails_wrapper_message #mails_message_head img{position:absolute; right:15px; top:8px; height:14px;}
+#mails_wrapper #mails_wrapper_message #mails_message_head img:hover{cursor:pointer;}
+
+#mails_wrapper #mails_wrapper_message #mails_message_body{position:absolute; left:0px; top:40px; width:100%; height:calc(100% - 40px);}
+#mails_wrapper #mails_wrapper_message #mails_message_body p{font-size:14px; margin-left:15px; margin-top:6px;}

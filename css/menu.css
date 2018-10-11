@@ -1,0 +1,24 @@
+html{height: auto !important; width: auto !important;}
+#top_menu{position: fixed; left: 0px; top: 0px; width: 100%; height: 120px; z-index: 1000; text-align:center; background: linear-gradient(to bottom, rgba(0, 0, 0, 4), rgba(0, 0, 0, 0)); background:red;}
+#top_menu .top_menu_link{position: absolute; left: 0px; top: 20px; width: 120px; height: 40px; transition: all 0.4s;}
+
+/* single link stylesheet */
+
+#top_menu #top_home{left:calc(50% - 410px);}
+#top_menu #top_products{left:calc(50% - 270px); transition-delay: 0.1s;}
+#top_menu #top_catalog{left:calc(50% - 130px);  transition-delay: 0.2s;}
+#top_menu #top_news{left: calc(50% + 10px);  transition-delay: 0.3s;}
+#top_menu #top_about{left: calc(50% + 150px);  transition-delay: 0.4s;}
+#top_menu #top_contact{left: calc(50% + 290px);  transition-delay: 0.5s;}
+
+#top_menu .top_menu_link a{margin-top:10px; display:block; text-decoration: none; color:#fff;}
+
+/* menu icon */
+
+#top_menu #menu_icon{position: absolute; left: 20px; width: 30px;  top: 22px; height: 30px;}
+#top_menu #menu_icon .menu_icon_line{position: absolute; left: 0px; top: 0px; width: 14px; height: 14px; border:1px solid #fff; border-radius: 3px; transition: all 0.4s; opacity: 0;}
+
+#top_menu #menu_icon #menu_icon_top_left{transition-delay: 0.2s;}
+#top_menu #menu_icon #menu_icon_top_right{left: calc(50% + 4px); transition-delay: 0.6s;}
+#top_menu #menu_icon #menu_icon_bottom_left{top: calc(50% + 4px); width: 16px; height: 16px; left: -2px;}
+#top_menu #menu_icon #menu_icon_bottom_rigth{top: calc(50% + 4px); left: calc(50% + 4px); transition-delay: 0.4s;}

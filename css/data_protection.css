@@ -1,0 +1,5 @@
+#data_wrapper{position: absolute; left: 13%; top: 100px; width: 74%; height: auto;}
+
+@media screen and (max-width: 800px){
+	#data_wrapper{left: 15px; width: calc(100% - 30px); text-align: justify;}
+}

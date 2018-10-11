@@ -1,0 +1,76 @@
+#contactMainWrapper { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
+#contactMainWrapper #contactMainWrapperMapa{position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+/*#mapOverlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.3); }
+*/
+#contactMainWrapper #contactMainWrapperFormWrapper{position: absolute; top: 150px; bottom: 150px; right: 200px; width: 700px; min-height: 450px; height: calc(100% - 300px); }
+/* forma */
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm{background: white; position: absolute; right: 0px; top: 0px; width: 60%; height: 100%; }
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm #contactHeader{position: absolute; top: 0; left: 0; width: 100%; height: 80px; }
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm #contactHeader h1{padding-left: 40px; font-size: 26px;}
+
+
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm #contactFormWrapper{ position: absolute; left: 40px; top: 80px; width: calc(100% - 80px); height: calc(100% - 130px);}
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm #contactFormWrapper .input_form{position: relative; left: 0px; top: 0px; width: 100%; height: 60px; margin-bottom: 10px;}
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm #contactFormWrapper .input_form_area{height: calc(100% - 200px);}
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm #contactFormWrapper .input_form input,
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm #contactFormWrapper .input_form textarea{position: absolute; left: 0px; padding-left: 15px; top: 0px; width: calc(100% - 30px); height: 100%; background: none; border: none; font-size: 14px; outline: none; border-bottom: 1px solid rgba(0,0,0,0.6); resize: none;}
+
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm #contactFormWrapper .input_form_submit{border: 2px solid rgba(0,0,0,0.3); border-radius: 3px; height: 40px; margin-top: 30px;}
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm #contactFormWrapper .input_form_submit input:hover{cursor: pointer;}
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm #contactFormWrapper .input_form_submit input{border: none;}
+
+/* adresa */
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperAdress{background: rgba(0,0,0,0.4); position: absolute; left: 0; top: 50px; bottom: 50px; width: 40%; height: calc(100% - 100px);}
+#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperAdress #contactInfo{position: absolute; top: 30px; left: 0; width: 100%; height: calc(100% - 80px); }
+.adressItems{position: relative; width: 100%; height: 75px; padding: none; margin: none;}
+.adressItems #adressItemsLocation{position: absolute; left: 20px; top: 15px; width: calc(100% - 40px); height: calc(100% - 30px); }
+.adressItems #adressItemsLocation #photo{position: absolute; top: 0; left: 0; width: 50px; height: 50px; }
+.adressItems #adressItemsLocation #photo img {position: absolute; top: 12.5px; left: 12.5px; width: 25px; height: 25px;}
+
+.adressItems #adressItemsLocation #description{position: absolute; left: 50px; width: calc(100% - 50px); height: 50px;}
+.adressItems #adressItemsLocation #description p{font-size: 14px; color: white;}
+
+
+/*mobile version*/
+@media screen and (max-width: 1000px){
+	#contactMainWrapper #contactMainWrapperFormWrapper{left: 0px; top: 70px; width: 100%; height: calc(100% - 70px);}
+	#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperForm{position: relative; width: 100%; height: 100%;}
+	#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperAdress{top: 100%; width: 100%;}
+	#contactMainWrapper #contactMainWrapperMapa{top: calc(200% - 170px);}
+
+	#contactMainWrapper #contactMainWrapperFormWrapper #contactMainWrapperFormWrapperAdress{background: #3A3A3A;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

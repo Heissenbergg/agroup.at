@@ -1,0 +1,18 @@
+#left_menu{position: fixed; left: 0px; top: 0px; width: 320px; height: 100%; background: #333;}
+#left_menu .left_menu_link{position: relative; left: 15px; top: 0px; width: calc(100% - 30px); height: 40px; border-bottom: 1px solid rgba(255,255,255,0.1);}
+#left_menu .left_menu_link_head{height: 120px;}
+#left_menu .left_menu_link h4{color: #fff; position: absolute; top: 40px;}
+#left_menu .left_menu_link a{color: #fff; position: absolute; top: 8px;}
+
+/** Top menu **/
+#top_menu{position: fixed; left: 321px; top: 0px; width: calc(100% - 321px); height: 70px; background: #333;}
+
+
+
+
+
+
+
+
+
+

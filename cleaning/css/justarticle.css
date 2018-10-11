@@ -1,0 +1,63 @@
+#just_article{position: fixed; left: 13%; top: 100px; width: 74%; height: calc(100% - 200px); overflow: auto;}
+
+#just_article #just_article_header{position: absolute; left: 0px; top: 0px; width: 100%; height: 100px;}
+#just_article #just_article_header h4{color: #BEBEBE; font-size: 22px; position: absolute; top: 10px; margin: 0px; }
+#just_article #just_article_header h4 a{color: #BEBEBE;}
+
+#just_article #just_article_images{position: absolute; left: 0px; top: 80px; width: 40%; height: calc(100% - 82px); border: 1px solid rgba(0,0,0,0.1); margin: 0px;}
+#just_article #just_article_images #just_article_images_img{position: absolute; left: 0px; top: 0px; width: 100%; height: calc(100% - 60px);}
+#just_article #just_article_images #just_article_images_img img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; max-width: 100%; max-height: 100%; margin: auto;}
+#just_article #just_article_images #just_article_images_arrows{position: absolute; left: 0px; bottom: 0px; width: 100%; height: 60px; text-align: center;}
+
+#just_article #just_article_images #just_article_images_img .rotated_image0{-webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg);}
+#just_article #just_article_images #just_article_images_img .rotated_image90{-webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+#just_article #just_article_images #just_article_images_img .rotated_image180{-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
+#just_article #just_article_images #just_article_images_img .rotated_image270{-webkit-transform: rotate(270deg); -moz-transform: rotate(270deg); -o-transform: rotate(270deg); -ms-transform: rotate(270deg); transform: rotate(270deg);}
+
+#just_article #just_article_images #just_article_images_arrows .image_arrows_part{position: relative; left: 0px; top: 0px; display: inline-block; height: 40px; width: 40px; top: 10px;}
+#just_article #just_article_images #just_article_images_arrows .image_arrows_part2{width: 160px;}
+#just_article #just_article_images #just_article_images_arrows .image_arrows_part img{max-width: 20px; max-height: 20px; position: absolute; left: 10px; top: 10px; right: 10px; bottom: 10px; margin: auto;}
+#just_article #just_article_images #just_article_images_arrows .image_arrows_part img:hover{cursor: pointer;}
+#just_article #just_article_images #just_article_images_arrows .image_arrows_part p{margin: 0px; position: absolute; top: 8px; width: 100%;}
+
+
+
+#just_article #just_article_text{position: absolute; left: 42%; top: 80px; width: 58%; height: calc(100% - 82px); overflow: auto; }
+#just_article #just_article_text .article_details{position: relative; left: 0px; top: 0px; width: 100%; height: auto;}
+#just_article #just_article_text .article_details h4{margin: 0px; margin-left: 20px; margin-top: 0px; font-size: 20px; margin-bottom: 20px;}
+#just_article #just_article_text .article_details p{margin:0px; margin-left: 20px; font-size: 15px; margin-top: 5px; margin-bottom: 8px; margin-right: 20px;}
+#just_article #just_article_text .article_details_detailed p{text-align: justify;}
+
+#just_article #just_article_text .all_pdfs{position: relative; left: 0px; top: 0px; width: 100%; height: 40px;  margin-bottom: 50px; border-top: 1px solid rgba(0,0,0,0.1);}
+#just_article #just_article_text .all_pdfs p{margin-top: 10px;}
+#just_article #just_article_text .all_pdfs img{position: absolute; right: 20px; top: 14px; width: 16px; height: 16px;}
+#just_article #just_article_text .all_pdfs img:hover{cursor: pointer;}
+#just_article #just_article_text .all_pdfs .second_pdf{right: 50px;}
+#just_article #just_article_text .all_pdfs .third_pdf {right: 80px;}
+
+
+/** huge images - gallery **/
+#huge_images_wrapper{position: fixed; display: none; left: 0px; top: 0px; width: 100%; height: calc(100% - 70px); background: rgba(58, 58, 58, 0.9); top: 70px; z-index: 400;}
+#huge_images_wrapper img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; max-width: 100%; max-height: 100%; margin: auto;}
+#huge_images_wrapper .huge_image{}
+#huge_images_wrapper #exit_image{position: absolute; right: 0px; top: 0px; width: 80px; height: 80px; background: rgba(58, 58, 58, 0.9);}
+#huge_images_wrapper #exit_image:hover{cursor: pointer;}
+#huge_images_wrapper #exit_image img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; width: 30px; height: 30px; margin: auto;}
+#huge_images_wrapper #huge_image_article_name{position: absolute; left: 0px; bottom: 0px; height: 50px; width: calc(100% - 0px); background: rgba(58, 58, 58, 0.9);}
+#huge_images_wrapper #huge_image_article_name p{color: #fff; margin-left: 20px; margin-top: 12px;}
+#huge_images_wrapper #huge_image_article_name p:hover{cursor: pointer;}
+
+@media screen and (max-width: 1400px){
+	#just_article{left: 5%; width: 90%;}
+	#just_article #just_article_header h4{font-size: 20px;}
+}
+
+@media screen and (max-width: 800px){
+	#just_article{left: 5%; width: 90%; overflow: auto; height: calc(100% - 100px);}
+	#just_article #just_article_header .hidden_header{display: none;}
+	#just_article #just_article_header h4{position: absolute; left: 0px; width: 100%; font-size: 17px; top: 0px; text-align: justify;} 
+	#just_article #just_article_images{width: calc(100% - 2px); height: 500px; }
+	#just_article #just_article_text{top: 600px; left: 0px; width: 100%; height: auto;}
+	#just_article #just_article_text .article_details h4{font-size: 17px; margin-left: 0px;}
+	#just_article #just_article_text .article_details p{margin-left: 0px; margin-right: 0px; font-size: 14px;}
+}

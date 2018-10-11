@@ -1,0 +1,6 @@
+#impresum_wrapper{position: absolute; left: 13%; top: 100px; width: 74%; height: auto;}
+#impresum_wrapper h4 a{color: #FF0144;}
+
+@media screen and (max-width: 800px){
+	#impresum_wrapper{left: 15px; width: calc(100% - 30px); text-align: justify;}
+}

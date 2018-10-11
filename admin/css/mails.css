@@ -1,0 +1,25 @@
+#working_area .date{position: relative; left: 15px; top: 50px; width: calc(100% - 30px); height: 50px;}
+#working_area .date h4{color: grey; margin-top: 12px; position: absolute;}
+
+#working_area .mail{position: relative; left:15px; top: 50px; width: calc(100% - 30px); height: 30px; border: 2px solid rgba(0,0,0,0.05);}
+#working_area .mail .mail_left{position: absolute; left: 0px; top: 0px; width: calc(100% - 200px); height: 100%;}
+#working_area .mail .mail_right{position: absolute; right: 40px; top: 0px; width: 160px; height: 100%; border-left: 2px solid rgba(0,0,0,0.05);}
+#working_area .mail .view_mail{position: absolute; right: 0px; top: 0px; width: 40px; height: 100%; border-left: 2px solid rgba(0,0,0,0.05);}
+#working_area .mail .view_mail img{position:absolute; left:0px; top:0px; right:0px; bottom:0px; max-width:20px; margin:auto;}
+#working_area .mail .view_mail img:hover{cursor:pointer;}
+#working_area .mail .mail_left p,
+#working_area .mail .mail_right p{position: absolute; left: 15px; top: 5px; font-size: 14px; margin: 0px;}
+
+/** preview mails **/
+#working_area .mail_preview{position:relative; left:15px; top:50px; width:calc(100% - 30px); height:auto; min-height:30px;}
+#working_area .mail_preview p{position:relative; margin:0px; top:2px; margin-left:20px;}
+#working_area .mail_preview .mail_text{font-size:14px; margin-top:20px;}
+#working_area .mail_preview .mail_text a{color:#FF0144;}
+
+
+
+
+
+
+
+

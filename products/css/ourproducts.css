@@ -1,0 +1,5 @@
+#all_news_footer{position: fixed; bottom: 0px; left: 13%; width: 74%;}
+
+@media screen and (max-width: 1400px){
+	#all_news_footer{left: 5%; width: 90%;}
+}

@@ -1,0 +1,9 @@
+#login_form{position: absolute; top: calc(50% - 230px); width: 600px; left: calc(50% - 300px); height: 430px; border: 2px solid rgba(0,0,0,0.2); border-radius: 4px;}
+#login_form #login_header{position: absolute; left: 30px; top: 10px; width: calc(100% - 60px); height: 60px; border-bottom: 2px solid rgba(0,0,0,0.1);}
+
+#login_form .login_input{position: relative; left: 30px; top: 100px; width: calc(100% - 60px); height: 50px; border-bottom: 2px solid rgba(0,0,0,0.1);}
+#login_form .login_input input{position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; border: none; background: none; outline: none;}
+#login_form .login_input_submit{margin-top: 50px; border: 2px solid rgba(0,0,0,0.1); border-radius: 3px;}
+#login_form .login_input_submit input:hover{cursor: pointer; font-size: 16px;}
+#login_form .login_input_warning{border: none; margin-top: 40px;}
+#login_form .login_input_warning p{color: #FF0144;}

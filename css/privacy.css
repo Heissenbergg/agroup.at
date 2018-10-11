@@ -1,0 +1,7 @@
+#privacy_box{position: absolute; left: 5%; top: 80px; width: 90%;}
+
+#privacy_box .bigger_text{position: relative; left: 0px; top: 0px; margin-top: 20px; width: 100%; height: auto;}
+#privacy_box .bigger_text h4{margin: 0px; font-size: 20px;}
+
+#privacy_box .smaller_text{position: relative; left: 0px; top: 0px; margin-top: 10px; height: auto;}
+#privacy_box .smaller_text p{font-size: 15px;}

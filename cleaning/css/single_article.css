@@ -1,0 +1,24 @@
+@media screen and (max-width: 1000px){
+	#articles #articles_body #details_part .article_detail2{display: block;}
+}
+@media screen and (max-width: 800px){
+	#articles #articles_body #details_part .article_detail2{display: none;}
+	#articles #articles_body #details_part .article_detail{left: 0px; width: 100%;}
+
+	#articles #articles_body #details_part .mobile_article_details{position: relative; left: 0px; top: 10px; width: 100%; height: 40px; display: block; border: 1px solid rgba(0,0,0,0.1);}
+	#articles #articles_body #details_part .mobile_article_details0{border-top: 0px;}
+	#articles #articles_body #details_part .mobile_article_details .mobile_article_details_left{position: absolute; left: 0px; top: 0px; width: 40%; border-right: 1px solid rgba(0,0,0,0.1); height: 40px;}
+	#articles #articles_body #details_part .mobile_article_details .mobile_article_details_right{position: absolute; left: 40%; top: 0px; width: 60%; height: 40px;}
+	#articles #articles_body #details_part .mobile_article_details .mobile_article_details_left p,
+	#articles #articles_body #details_part .mobile_article_details .mobile_article_details_right p{position: absolute; width: calc(100% - 40px); text-align: center; left: 20px; top: 8px; margin:0px;}
+	#articles #articles_body #details_part .article_all_details{margin-top: 24px;}
+}
+@media screen and (max-width: 600px){
+	#articles{left: calc(15px); width: calc(100% - 30px);}
+	#articles_header{display: none;}
+	#articles #articles_body{top: 0px;}
+	#articles #articles_body #details_part .article_detail{left: 0px; width: 100%; text-align: center; margin-bottom: 20px;}
+	#articles #articles_body #details_part .article_detail h4{width: 100%; text-align: center;}
+
+	#articles #articles_body #details_part .last_one{margin-bottom: 50px;}	
+}
